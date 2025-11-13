@@ -1,12 +1,14 @@
 @use '../variables';
 
 .button {
+    border-radius: 8px;
     padding: 12px;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
+    cursor: pointer;
 
     &--primary {
         color: #fff;
